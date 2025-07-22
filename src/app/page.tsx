@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Section from "./Components/Section";
 import Header from "./Components/header";
 import Skills from "./Components/Skills";

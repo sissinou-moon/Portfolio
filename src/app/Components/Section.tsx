@@ -7,9 +7,6 @@ import Portfolio from "@/assets/Portfolio.png"
 import Image from "next/image";
 import Japon from "@/assets/を.png"
 import Abderrahmane from "@/assets/ABDERRAHMANE.png"
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
 
 const japaneseTextContainer = {
   hidden: { opacity: 0 },

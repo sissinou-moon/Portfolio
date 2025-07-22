@@ -30,7 +30,7 @@ export default function Contact() {
                 setStatus('error');
                 setError(data.error || 'Something went wrong.');
             }
-        } catch (err) {
+        } catch (err: unknown) {
             setStatus('error');
             setError('error');
         }
@@ -92,7 +92,7 @@ export default function Contact() {
                 <div className="w-full md:w-1/2 text-black">
                     <h3 className="text-2xl font-semibold mb-2">Or, Reach Out Directly</h3>
                     <p className="text-gray-600 mb-3">
-                        You can also contact me through my social media channels. I'm active on these platforms and would be happy to connect!
+                        You can also contact me through my social media channels. I&apos;m active on these platforms and would be happy to connect!
                     </p>
                     <ul className="space-y-3">
                         <li className="flex items-start">

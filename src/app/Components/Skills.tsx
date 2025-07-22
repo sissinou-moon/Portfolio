@@ -4,11 +4,8 @@ import { useEffect, useRef } from "react";
 import { animate, useInView, motion, useTransform, useScroll } from "framer-motion";
 import { Code2, Atom, TabletSmartphone } from "lucide-react";
 import Image from "next/image";
-import Fishes from "@/assets/Fishes.png"
-import Cloud from "@/assets/Cloud.png"
 import Me from "@/assets/Me.png"
 import Flutter from "@/assets/Flutter.png"
-import ReactNative from "@/assets/React.svg"
 import Next from "@/assets/NextJs.svg"
 
 function Counter({ to, delay = 0, inView, duration = 1.5 }: { to: number; delay?: number; inView: boolean; duration?: number }) {
@@ -51,8 +48,6 @@ export default function Skills() {
 
   
     const translateY = useTransform(scrollYProgress, [0,1], [150, -150]);
-    const rotateX = useTransform(ImageProgress, [0,1], [15, -15])
-    const opacityValue = useTransform(ImageProgress, [0,1], [0, 2])
 
 
     const inView = useInView(sectionRef, { once: true, amount: 0.1 });
@@ -65,7 +60,6 @@ export default function Skills() {
     const counter3Delay = counter2Delay + counterAnimDuration;
     const ceoDelay = counter3Delay + counterAnimDuration;
 
-    const halfTranslateY = useTransform(translateY, (v) => v * 0.5);
 
     return (
         <div id="skills" ref={sectionRef} className="relative overflow-hidden bg-white">
