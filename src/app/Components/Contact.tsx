@@ -30,9 +30,9 @@ export default function Contact() {
                 setStatus('error');
                 setError(data.error || 'Something went wrong.');
             }
-        } catch (err: any) {
+        } catch (err) {
             setStatus('error');
-            setError(err.message || 'Something went wrong.');
+            setError('error');
         }
     }
 
