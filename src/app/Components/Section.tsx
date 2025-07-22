@@ -66,14 +66,14 @@ export default function Section() {
                     animate={{ scale: 1, opacity: 1 }}
                     transition={{ duration: 0.5, ease: "easeOut" }}
                 >
-                    <Image src={Portfolio} alt="Portfolio" width={350} className="absolute top-100 md:left-10 max-w-200 scale-[0.8]"/>
+                    <Image src={Portfolio} alt="Portfolio" width={350} className="absolute top-150 md:left-10 max-w-200 scale-[0.8]"/>
                 </motion.div>
                 <motion.div
                     initial={{ scale: 0.8, opacity: 0 }}
                     animate={{ scale: 1, opacity: 1 }}
                     transition={{ duration: 0.5, ease: "easeOut" }}
                 >
-                    <Image src={Japon} alt="Portfolio" width={250} className="absolute top-120 left-60 text-lg font-medium text-black max-w-200"/>
+                    <Image src={Japon} alt="Portfolio" width={250} className="absolute top-170 left-60 -translate-x-1/2 text-lg font-medium text-black max-w-200"/>
                 </motion.div>
 
                 <motion.p 

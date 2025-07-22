@@ -40,7 +40,7 @@ export default function Header({ className = "" }: HeaderProps) {
 
     return (
         <header className={`flex justify-center items-center sticky ${className}`}>
-            <div className="inline-flex bg-white px-4 py-1.5 items-center justify-around rounded-2xl shadow-xl my-3">
+            <div className="inline-flex bg-white px-2 md:px-4 py-1.5 items-center justify-around rounded-2xl shadow-xl my-3">
                 <Image src={Logo} alt="Logo" width={35} height={35} className="mx-3"/>
                 {sections.map(({ id, label }) => (
                     <div
@@ -49,7 +49,7 @@ export default function Header({ className = "" }: HeaderProps) {
                             (active === id
                                 ? "bg-black text-white"
                                 : "bg-white text-black") +
-                            " px-2 md:px-5 lg:px-5 py-1.5 rounded-lg md:rounded-xl lg:rounded-xl font-medium text-xs mx-3 cursor-pointer transition-colors duration-200 sm:text-[9px] md:text-sm"
+                            " px-2 md:px-5 lg:px-5 py-1.5 rounded-lg md:rounded-xl lg:rounded-xl font-medium text-xs mx-1 md:mx-3 cursor-pointer transition-colors duration-200 sm:text-[9px] md:text-sm"
                         }
                     >
                         <a
