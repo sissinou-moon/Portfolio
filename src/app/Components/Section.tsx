@@ -45,7 +45,7 @@ export default function Section() {
                 </motion.div>
 
                 <motion.p 
-                    className="absolute top-45 md:left-10 left-5 text-[50px] font-bold text-black"
+                    className="absolute top-45 md:left-10 left-12 text-[35px] md:text-[50px] font-bold text-black"
                     initial={{ y: 50, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.6, ease: "easeOut" }}
@@ -53,12 +53,12 @@ export default function Section() {
                     ABDERRAHMANE
                 </motion.p>
                 <motion.p 
-                    className="absolute top-65 md:top-70 md:left-10 text-center md:text-start text-md md:text-lg font-regular text-black max-w-190 px-10 md:px-0"
+                    className="absolute top-60 md:top-70 md:left-10 text-center md:text-start text-md md:text-lg font-regular text-black max-w-190 px-10 md:px-0"
                     initial={{ y: 50, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.6, ease: "easeOut" }}
                 >
-                    Creative and curious developer with experience in full-stack web and mobile apps.I enjoy solving real problems through clean code and smart design.Also active in tech communities, constantly learning and sharing knowledge.
+                    CEO of Algeria’s top freelancers platform, As a full-stack developer and deep learning engineer, I merge vision with execution to build market-leading solutions.
                 </motion.p>
 
                 <motion.div
@@ -66,14 +66,14 @@ export default function Section() {
                     animate={{ scale: 1, opacity: 1 }}
                     transition={{ duration: 0.5, ease: "easeOut" }}
                 >
-                    <Image src={Portfolio} alt="Portfolio" width={350} className="absolute top-150 md:left-10 max-w-200 scale-[0.8]"/>
+                    <Image src={Portfolio} alt="Portfolio" width={350} className="absolute top-125 md:top-100 md:left-10 max-w-200 scale-[0.8]"/>
                 </motion.div>
                 <motion.div
                     initial={{ scale: 0.8, opacity: 0 }}
                     animate={{ scale: 1, opacity: 1 }}
                     transition={{ duration: 0.5, ease: "easeOut" }}
                 >
-                    <Image src={Japon} alt="Portfolio" width={250} className="absolute top-170 left-60 -translate-x-1/2 text-lg font-medium text-black max-w-200"/>
+                    <Image src={Japon} alt="Portfolio" width={250} className="absolute top-170 md:top-135 left-75 md:left-100 -translate-x-1/2 text-lg font-medium text-black max-w-200"/>
                 </motion.div>
 
                 <motion.p 

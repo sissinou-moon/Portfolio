@@ -75,10 +75,10 @@ export default function Skills() {
                     animate={inView ? { opacity: 1 } : {}}
                     transition={{ delay: counter1Delay }}
                 >
-                    <p className="text-[32px] md:text-[60px] font-bold text-white">
+                    <p className="text-[27px] md:text-[60px] font-bold text-white">
                         +<Counter to={9} delay={counter1Delay} inView={inView} duration={counterAnimDuration} />
                     </p>
-                    <span className="text-xs md:text-md text-white font-extralight md:text-sm">Finished Projects</span>
+                    <span className="text-[9px] md:text-md text-white font-extralight md:text-sm">Finished Projects</span>
                 </motion.div>
                 <motion.div 
                     className="flex items-center max-w-20 gap-2"
@@ -86,10 +86,10 @@ export default function Skills() {
                     animate={inView ? { opacity: 1 } : {}}
                     transition={{ delay: counter2Delay }}
                 >
-                    <p className="text-[32px] md:text-[60px] font-bold text-white">
+                    <p className="text-[27px] md:text-[60px] font-bold text-white">
                         <Counter to={3} delay={counter2Delay} inView={inView} duration={counterAnimDuration} />
                     </p>
-                    <span className="text-xs md:text-md text-white font-extralight md:text-sm">Startup projects</span>
+                    <span className="text-[9px] md:text-md text-white font-extralight md:text-sm">Startup projects</span>
                 </motion.div>
                 <motion.div 
                     className="flex items-center max-w-20 gap-2"
@@ -97,10 +97,10 @@ export default function Skills() {
                     animate={inView ? { opacity: 1 } : {}}
                     transition={{ delay: counter3Delay }}
                 >
-                    <p className="text-[32px] md:text-[60px] font-bold text-white">
+                    <p className="text-[27px] md:text-[60px] font-bold text-white">
                         <Counter to={4} delay={counter3Delay} inView={inView} duration={counterAnimDuration} />
                     </p>
-                    <span className="text-xs md:text-md text-white font-extralight md:text-sm">Satisfiant Clients</span>
+                    <span className="text-[9px] md:text-md text-white font-extralight md:text-sm">Satisfiant Clients</span>
                 </motion.div>
                 <motion.div 
                     className="flex items-center max-w-40 gap-2"
@@ -108,7 +108,7 @@ export default function Skills() {
                     animate={inView ? { opacity: 1 } : {}}
                     transition={{ delay: ceoDelay }}
                 >
-                    <p className="text-[32px] md:text-[60px] font-bold text-white">
+                    <p className="text-[27px] md:text-[60px] font-bold text-white">
                         CEO
                     </p>
                     <span className="hidden text-xs md:text-md text-white font-extralight md:block md:text-sm">Freelancers Platform</span>
